@@ -23,6 +23,20 @@ public class SkillSetServlet extends GenericServlet {
         String other=servletRequest.getParameter("other");
         String submit=servletRequest.getParameter("submit");
 
+        System.out.println("Skillset");
+        System.out.println(name);
+        System.out.println(email);
+        System.out.println(primarySkill);
+        System.out.println(secondarySkill);
+        System.out.println(database);
+        System.out.println(ide);
+        System.out.println(ui);
+        System.out.println(exp);
+        System.out.println(frameworks);
+        System.out.println(other);
+        System.out.println("-----------------------------");
+
+
     }
 
     @Override

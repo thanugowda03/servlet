@@ -15,7 +15,7 @@ public class EducationDetailsServlet extends GenericServlet {
         String sname=servletRequest.getParameter("sname");
         String school=servletRequest.getParameter("school");
         String yop=servletRequest.getParameter("yop");
-        String percentage=servletRequest.getParameter("servlet");
+        String percentage=servletRequest.getParameter("percentage");
 
         String name=servletRequest.getParameter("name");
         String college=servletRequest.getParameter("college");
@@ -37,6 +37,39 @@ public class EducationDetailsServlet extends GenericServlet {
         String percentage2=servletRequest.getParameter("percentage2");
 
         String submit=servletRequest.getParameter("submit");
+
+        System.out.println("Education Details");
+        System.out.println("School Details");
+        System.out.println("Student name: "+sname);
+        System.out.println("School name: "+school);
+        System.out.println("Year of Passout: "+yop);
+        System.out.println("Percentage: "+percentage);
+        System.out.println("---------------------------------");
+
+        System.out.println("PUC Details");
+        System.out.println("Student name: "+name);
+        System.out.println("College name: "+college);
+        System.out.println("Year of Passout: "+year);
+        System.out.println("Percentage: "+percent);
+        System.out.println("---------------------------------");
+
+        System.out.println("Degree Details");
+        System.out.println("Student name: "+studName);
+        System.out.println("College name "+clg);
+        System.out.println("Course: "+ course);
+        System.out.println("Stream:"+stream);
+        System.out.println("Year of passout: "+passout);
+        System.out.println("Percentage: "+percentage1);
+        System.out.println("---------------------------------");
+
+        System.out.println("Master Degree");
+        System.out.println("Student name: "+stName);
+        System.out.println("College name "+clgg);
+        System.out.println("Course: "+ course1);
+        System.out.println("Stream:"+stream1);
+        System.out.println("Year of passout: "+passoutYear);
+        System.out.println("Percentage: "+percentage2);
+        System.out.println("---------------------------------");
 
     }
 

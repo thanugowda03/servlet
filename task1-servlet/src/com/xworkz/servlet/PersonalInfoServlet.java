@@ -21,6 +21,17 @@ public class PersonalInfoServlet extends GenericServlet {
         String status=servletRequest.getParameter("status");
         String submit=servletRequest.getParameter("submit");
 
+        System.out.println("Personal details");
+        System.out.println(name);
+        System.out.println(email);
+        System.out.println(mobileNo);
+        System.out.println(age);
+        System.out.println(address);
+        System.out.println(gender);
+        System.out.println(dob);
+        System.out.println(status);
+        System.out.println("---------------------------------");
+
     }
     @Override
     public void init(ServletConfig config) throws ServletException {
