@@ -3,6 +3,8 @@ package com.xworkz.servlet;
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
+import java.io.PrintWriter;
+
 @WebServlet(urlPatterns = "/patient",loadOnStartup = 1)
 public class PatientServlet extends GenericServlet {
     public PatientServlet(){
@@ -35,6 +37,11 @@ public class PatientServlet extends GenericServlet {
         System.out.println("date:"+date);
         System.out.println("doctor name:"+doctor);
         System.out.println("----------------------------------");
+
+        servletResponse.setContentType("text/html");
+        PrintWriter writer=servletResponse.getWriter();
+        writer.println("Data Saved successfully..... "+id+" , "+name+" , "+age+" , "+gender+" , "+blood+" , "+phone+" , "+address+" , "+disease+" , "+date+" , "+doctor);
+
 
     }
 
