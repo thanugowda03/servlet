@@ -26,8 +26,6 @@ public class Hospital {
             "(12, 'Crescent Health Care', 'Indore', 'Madhya Pradesh', 'India', '452001', 'General', 150, 'NO', 4.0),"+
             "(13, 'Rainbow Hospital', 'Nagpur', 'Maharashtra', 'India', '440001', 'Specialty', 180, 'YES', 4.2),"+
             "(14, 'Silver Oak Hospital', 'Surat', 'Gujarat', 'India', '395001', 'General', 200, 'YES', 4.1),"+
-
-
             "(15, 'Healing Hands Hospital', 'Kochi', 'Kerala', 'India', '682001', 'Multispeciality', 230, 'YES', 4.4),"+
             "(16, 'Tranquil Medical Center', 'Mysore', 'Karnataka', 'India', '570001', 'General', 140, 'NO', 3.8),"+
             "(17, 'Lotus Valley Hospital', 'Chandigarh', 'Chandigarh', 'India', '160001', 'Specialty', 120, 'YES', 4.2),"+
@@ -65,7 +63,6 @@ public class Hospital {
             "(49, 'Serenity Hospital', 'Guwahati', 'Assam', 'India', '781002', 'Specialty', 130, 'NO', 4.1),"+
             "(50, 'Vital Care Hospital', 'Patna', 'Bihar', 'India', '800002', 'Multispeciality', 200, 'YES', 4.3),"+
             "(51, 'Maplewood Hospital', 'Raipur', 'Chhattisgarh', 'India', '492002', 'General', 150, 'YES', 4.0),"+
-
             "(52, 'Crystal Care Hospital', 'Dehradun', 'Uttarakhand', 'India', '248002', 'Specialty', 120, 'YES', 4.2),"+
             "(53, 'Pioneer Health Institute', 'Shimla', 'Himachal Pradesh', 'India', '171002', 'General', 140, 'YES', 4.1),"+
             "(54, 'Cedar Valley Hospital', 'Bhubaneswar', 'Odisha', 'India', '751002', 'Multispeciality', 180, 'YES', 4.3),"+

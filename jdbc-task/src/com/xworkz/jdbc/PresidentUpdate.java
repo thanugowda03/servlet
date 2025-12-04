@@ -1,9 +1,6 @@
 package com.xworkz.jdbc;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class PresidentUpdate {
     public static void main(String[] args) {
@@ -18,8 +15,6 @@ public class PresidentUpdate {
             String query2="update president set country='India' where id=2";
             String query3="update president set children=3 where id=3";
             String query4="update president set country='USA' where id=4";
-
-
 
             Statement statement = connection.createStatement();
             int rowAffected1 = statement.executeUpdate(query1);
